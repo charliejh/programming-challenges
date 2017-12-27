@@ -44,6 +44,8 @@ public class WalkInAMinefield {
                                 minefieldUpdate(row - 1, col, col, row);
                                 row--;
                             } else if (minefield[row - 1][col].contains("*")) {
+                                minefieldUpdate(row - 1, col, col, row);
+                                row--;
                                 broken = true;
                             }
                         }
@@ -56,6 +58,8 @@ public class WalkInAMinefield {
                                 minefieldUpdate(row, col + 1, col, row);
                                 col++;
                             } else if (minefield[row][col + 1].contains("*")) {
+                                minefieldUpdate(row, col + 1, col, row);
+                                col++;
                                 broken = true;
                             }
                         }
@@ -68,6 +72,8 @@ public class WalkInAMinefield {
                                 minefieldUpdate(row + 1, col, col, row);
                                 row++;
                             } else if (minefield[row + 1][col].contains("*")) {
+                                minefieldUpdate(row + 1, col, col, row);
+                                row++;
                                 broken = true;
                             }
                         }
