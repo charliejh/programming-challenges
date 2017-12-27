@@ -16,9 +16,9 @@ public class WalkInAMinefield {
     };
 
     /**
-     * Ensures the game is set to true before asking for user input
-     * The robot will not be able to move if he is blown up by a mine
-     * THe robot will not be able to move if it's engine is off
+     * Ensures the game is set to true before asking for user input - game boolean
+     * The robot will not be able to move if he is blown up by a mine - broken boolean
+     * THe robot will not be able to move if it's engine is off - engine boolean
      * The robot is moved depending on the users input
      * To finish the user must ideally turn the engine off and press Enter to finish
      */
