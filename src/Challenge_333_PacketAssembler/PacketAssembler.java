@@ -77,6 +77,7 @@ public class PacketAssembler {
             9949    5   10  Because he's not a hero.
         */
         Scanner sc = new Scanner(System.in);
+        System.out.println("Packet Assembler #333");
         while (true) {
             System.out.print("Packet: ");
             String input = sc.nextLine();
