@@ -55,7 +55,7 @@ public class SpellingWithChemistry {
                 }
             }
         }
-        if (currentWord.toLowerCase().equals(originalWord.toLowerCase())) {
+        if (currentWord.toLowerCase().equals(originalWord)) {
             System.out.print(currentWord);
             System.out.print(" ( ");
             for (String e : elementsUsed) {
@@ -66,7 +66,7 @@ public class SpellingWithChemistry {
         else {
             System.out.println("Word cannot be spelt");
         }
-        return currentWord.equals(word);
+        return currentWord.toLowerCase().equals(originalWord);
     }
 
     /**
