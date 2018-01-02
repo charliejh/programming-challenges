@@ -2,7 +2,7 @@ package Challenge_302_SpellingWithChemistry;
 
 public class Element {
 
-    /** Element attribvutes */
+    /** Element attributes */
     private String NAME, SYMBOL, ATOMICWEIGHT;
     private int Z;
     private float C;
