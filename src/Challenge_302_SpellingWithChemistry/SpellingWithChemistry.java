@@ -11,7 +11,7 @@ public class SpellingWithChemistry {
 
     public static void main(String[] args) {
         System.out.println("Spelling With Chemistry #302");
-        elements = readElementsCSV("src\\Challenge_302_SpellingWithChemistry\\Elements.csv");
+        elements = readElementsCSV("src/Challenge_302_SpellingWithChemistry/Elements.csv");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("Word: ");
