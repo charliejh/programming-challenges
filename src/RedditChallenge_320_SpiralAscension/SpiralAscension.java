@@ -1,4 +1,4 @@
-package Challenge_320_SpiralAscension;
+package RedditChallenge_320_SpiralAscension;
 
 import java.util.Scanner;
 

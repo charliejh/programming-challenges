@@ -1,4 +1,4 @@
-package Challenge_340_WalkInAMinefield;
+package RedditChallenge_340_WalkInAMinefield;
 
 import java.util.Scanner;
 

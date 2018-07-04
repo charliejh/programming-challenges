@@ -1,4 +1,4 @@
-package Challenge_323_ThreeSum;
+package RedditChallenge_323_ThreeSum;
 
 import java.util.ArrayList;
 import java.util.Collections;

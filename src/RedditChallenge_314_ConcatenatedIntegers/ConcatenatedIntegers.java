@@ -1,4 +1,4 @@
-package Challenge_314_ConcatenatedIntegers;
+package RedditChallenge_314_ConcatenatedIntegers;
 
 import java.util.*;
 
