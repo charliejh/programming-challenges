@@ -1,3 +1,3 @@
-# Reddit/r/DailyProgrammer
+# Programming challenges
 
-All challenges are taken from https://www.reddit.com/r/dailyprogrammer/ and are completed here using Java.
+Programming challenges taken from various sources and are completed using Java.
