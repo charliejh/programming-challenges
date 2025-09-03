@@ -1,4 +1,4 @@
-package RedditChallenge_313_SubsetSum;
+package reddit.RedditChallenge_313_SubsetSum;
 
 import java.util.ArrayList;
 import java.util.Collections;

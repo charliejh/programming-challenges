@@ -1,4 +1,4 @@
-package RedditChallenge_312_LeetSpeakTranslator;
+package reddit.RedditChallenge_312_LeetSpeakTranslator;
 
 import java.util.Scanner;
 

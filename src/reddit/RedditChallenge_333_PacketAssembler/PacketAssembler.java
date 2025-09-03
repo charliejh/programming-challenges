@@ -1,4 +1,4 @@
-package RedditChallenge_333_PacketAssembler;
+package reddit.RedditChallenge_333_PacketAssembler;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package RedditChallenge_338_WhatDayWasItAgain;
+package reddit.RedditChallenge_338_WhatDayWasItAgain;
 
 import java.util.Scanner;
 

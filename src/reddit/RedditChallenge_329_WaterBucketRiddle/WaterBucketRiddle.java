@@ -1,4 +1,4 @@
-package RedditChallenge_329_WaterBucketRiddle;
+package reddit.RedditChallenge_329_WaterBucketRiddle;
 
 import java.util.ArrayList;
 

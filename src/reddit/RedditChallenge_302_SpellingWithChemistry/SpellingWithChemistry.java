@@ -1,4 +1,4 @@
-package RedditChallenge_302_SpellingWithChemistry;
+package reddit.RedditChallenge_302_SpellingWithChemistry;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ public class SpellingWithChemistry {
 
     public static void main(String[] args) {
         System.out.println("Spelling With Chemistry #302");
-        elements = readElementsCSV("src/RedditChallenge_302_SpellingWithChemistry/Elements.csv");
+        elements = readElementsCSV("src/reddit/RedditChallenge_302_SpellingWithChemistry/Elements.csv");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("Word: ");

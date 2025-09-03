@@ -1,4 +1,4 @@
-package RedditChallenge_302_SpellingWithChemistry;
+package reddit.RedditChallenge_302_SpellingWithChemistry;
 
 public class Element {
 
