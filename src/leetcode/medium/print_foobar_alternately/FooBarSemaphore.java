@@ -15,7 +15,7 @@ public class FooBarSemaphore {
 	public void foo(Runnable printFoo) throws InterruptedException {
 		for (int i = 0; i < n; i++) {
 			fooTurn.acquire();          // wait for our turn
-			printFoo.run();             // print without newline
+			printFoo.run();             // print
 			barTurn.release();          // let bar run next
 		}
 	}
@@ -23,7 +23,7 @@ public class FooBarSemaphore {
 	public void bar(Runnable printBar) throws InterruptedException {
 		for (int i = 0; i < n; i++) {
 			barTurn.acquire();          // wait for foo
-			printBar.run();             // print without newline
+			printBar.run();             // print
 			fooTurn.release();          // hand back to foo
 		}
 	}
