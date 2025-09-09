@@ -1,4 +1,4 @@
-package leetcode.medium.print_foobar_alternately;
+package leetcode.medium.print_foobar_alternately_1115;
 
 class FooBar {
 

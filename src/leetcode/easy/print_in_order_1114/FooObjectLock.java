@@ -1,4 +1,4 @@
-package leetcode.easy.print_in_order;
+package leetcode.easy.print_in_order_1114;
 
 public class FooObjectLock {
 
