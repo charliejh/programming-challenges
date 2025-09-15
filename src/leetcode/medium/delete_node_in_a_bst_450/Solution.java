@@ -26,7 +26,7 @@ public class Solution {
 			// delete the successor node from the right subtree
 			root.right = deleteNode(root.right, succ.val);
 		}
-		
+
 		return root;
 	}
 
